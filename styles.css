@@ -78,7 +78,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgb(255,64,129);
+  background-color: #2196F3;
   left: 15%;
 }
 
@@ -154,5 +154,35 @@ img.article-image {
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
+}
+
+/* Make card media backgrounds white so transparent PNGs don't show accent/pink underneath */
+.Home-card .mdl-card__media {
+  background-color: #ffffff;
+}
+
+/* Override MDL accent (pink) for Home cards' Read more buttons to a cooler blue */
+.Home-card .mdl-button.mdl-button--accent,
+.Home-card .mdl-button--colored.mdl-button--accent {
+  background-color: #2196F3 !important; /* blue */
+  color: #fff !important;
+}
+.Home-card .mdl-button.mdl-button--accent:hover {
+  background-color: #1976D2 !important;
+}
+
+/* Site-wide override: change MDL accent (pink) to blue */
+.mdl-color--accent,
+.mdl-color-text--accent,
+.mdl-button--accent,
+.mdl-button--accent.mdl-button--raised,
+.mdl-button--accent.mdl-button--fab {
+  background-color: #2196F3 !important;
+  color: #fff !important;
+}
+.mdl-button--accent .mdl-ripple,
+.mdl-button--accent.mdl-button--raised .mdl-ripple,
+.mdl-button--accent.mdl-button--fab .mdl-ripple {
+  background: rgba(255,255,255,0.7) !important;
 }
 
