@@ -15,6 +15,7 @@
   text-align: center;
   font-weight: 300;
   color: #212121 !important;
+  color-scheme: only light;
 }
 
 .is-compact .mdl-layout__title span {
@@ -70,6 +71,7 @@
 .Home-navigation-row .mdl-navigation__link,
 .mdl-layout__drawer .mdl-navigation__link {
   color: #212121;
+  color-scheme: only light;
 }
 
 /* Active link color (uses site's accent) */
@@ -77,6 +79,7 @@
 .mdl-layout__drawer .mdl-navigation__link.is-active {
   color: #2196F3;
   font-weight: bold;
+  color-scheme: only light;
 }
 
 .Home-header .mdl-layout__drawer-button {
