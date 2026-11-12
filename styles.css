@@ -127,6 +127,31 @@ img.article-image {
   margin: auto;
 }
 
+.suspension-notice {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px max(24px, calc((100% - 900px) / 2));
+  background-color: #b71c1c;
+  color: #fff;
+}
+
+.suspension-notice h1 {
+  margin: 0 0 12px;
+  color: inherit;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.suspension-notice p {
+  max-width: 900px;
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+.suspension-notice p:last-child {
+  margin-bottom: 0;
+}
+
 .Home-copy {
   max-width: 700px;
 }
@@ -223,4 +248,3 @@ html, body {
 .mdl-button--accent.mdl-button--fab .mdl-ripple {
   background: rgba(255,255,255,0.7) !important;
 }
-
