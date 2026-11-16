@@ -152,6 +152,14 @@ img.article-image {
   margin-bottom: 0;
 }
 
+.suspension-notice a:link {
+  color: #0000ee !important;
+}
+
+.suspension-notice a:visited {
+  color: #551a8b !important;
+}
+
 .Home-copy {
   max-width: 700px;
 }
