@@ -131,8 +131,8 @@ img.article-image {
   box-sizing: border-box;
   width: 100%;
   padding: 24px max(24px, calc((100% - 900px) / 2));
-  background-color: #b71c1c;
-  color: #fff;
+  background-color: #e8f5e9;
+  color: #1b5e20;
 }
 
 .suspension-notice h1 {
